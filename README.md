@@ -1,16 +1,11 @@
 <!--
-SPDX-FileCopyrightText: 2020 Fermi Research Alliance, LLC
+SPDX-FileCopyrightText: 2023 Fermi Research Alliance, LLC
 SPDX-License-Identifier: Apache-2.0
 -->
 
-# GlideinWMS containers
+# Scientific Distributed Workload DevTest
 
-Containers for the deployment of Glidein Workload Management Service services.
-See https://github.com/glideinWMS/glideinwms for more info about GlideinWMS.
+Container-based development and testing platform that facilitates development
+of software like GlideinWMS and HEPCloud's Decision Engine and speeds up the
+release cycle.
 
-`frontend` and `factory` contain images for the GlideinWMS services.
-
-The `interactive` folder is for containers to use interactively as development environment.
-
-The `worker` folder holds various Dockerfiles for worker nodes images
-that can be used via Docker or Singularity/Apptainer.
